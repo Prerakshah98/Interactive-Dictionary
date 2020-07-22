@@ -3,7 +3,7 @@ import difflib
 from difflib import SequenceMatcher
 from difflib import get_close_matches
 #TEST
-int = 6
+int = 7
 data = json.load(open("data.json"))
 
 def translate(word):
